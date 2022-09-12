@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSources>
+    <dataSource>
+        <ident>aif</ident>
+        <name>Аргументы и факты</name>
+        <method>rss</method>
+        <url>https://aif.ru/rss/googlenews</url>
+    </dataSource>
+    <dataSource>
+        <ident>kommersant</ident>
+        <name>Комерсант</name>
+        <method>rss</method>
+        <url>https://www.kommersant.ru/RSS/news.xml</url>
+    </dataSource>
+    <dataSource>
+        <ident>mk</ident>
+        <name>Московский комсомолец</name>
+        <method>rss</method>
+        <url>https://www.mk.ru/rss/index.xml</url>
+    </dataSource>
+    <dataSource>
+        <ident>ria</ident>
+        <name>Риа новости</name>
+        <method>rss</method>
+        <url>https://ria.ru/export/rss2/archive/index.xml</url>
+    </dataSource>
+    <dataSource>
+        <ident>vedomosti</ident>
+        <name>Ведомости</name>
+        <method>rss</method>
+        <url>https://www.vedomosti.ru/rss/news</url>
+    </dataSource>
+</dataSources>
+

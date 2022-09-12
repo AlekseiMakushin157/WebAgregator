@@ -1,0 +1,16 @@
+{
+    "name": "vendor/web-agregator",
+    "description": "Description of project WebAgregator.",
+    "authors": [
+        {
+            "name": "alist",
+            "email": "your@email.here"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "application/Core",
+            "NewsAgregator\\": "application/model/NewsAgregator"
+        }
+    }
+}
