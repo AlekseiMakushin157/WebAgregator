@@ -24,4 +24,4 @@ You can change site title and other parameters in config/application.ini file. Y
 
 ## Work description
 
-The main module of the project is the "NewsAgregator" module, which reads data from various data sources. It uses an XML file to describe the methods and URLs used for data sources, receives data as News entities, and converts it to arrays then need to send response or populate data.
+The main module of the project is the "NewsAgregator" module, which reads data from various data sources. It uses an XML file to describe the methods and URLs used for data sources, receives data as News entities, and converts it to arrays then need to send response or populate data (Check "NewsAgregatorDiagram.jpg").
