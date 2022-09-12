@@ -17,3 +17,7 @@ clone https://github.com/AlekseiMakushin157/WebAgregator.git
 ```bash
 composer install
 ```
+
+## Settings
+
+You can change site title and other parameters in config/application.ini file. You can add new news sources via Mapping.xml file (in "MODEL_DIR/NewsAgregator/" folder).
