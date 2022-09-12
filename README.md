@@ -10,7 +10,7 @@ WebAgregator uses loaded JQuery library for requests to server via AJAX.
 
 Clone github repository  into webserver domain folder with command
 ```bash
-clone https://github.com/AlekseiMakushin157/WebAgregator
+clone https://github.com/AlekseiMakushin157/WebAgregator.git
 ```
 
  Create vendor directory and build "autoload.php" file with command
