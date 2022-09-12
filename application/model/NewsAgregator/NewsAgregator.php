@@ -4,6 +4,7 @@ namespace NewsAgregator;
 
 use NewsAgregator\Domain\DataSourceInterface;
 use NewsAgregator\DataSource\RssSource;
+use UnexpectedValueException;
 
 /**
  * Interface for working with NewsAgregator module
@@ -53,7 +54,7 @@ class NewsAgregator {
                 $source = new RssSource($map[$sourceName]['url']);
                 break;
             default:
-                throw new Exception();
+                throw new UnexpectedValueException('Unsupported source read method. Given: ' . $map[$sourceName]['method']);
         }
 
         return $source;
